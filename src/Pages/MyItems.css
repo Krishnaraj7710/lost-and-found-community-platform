@@ -1,0 +1,187 @@
+.my-items-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-direction: column;
+    
+}
+
+.profile-card{
+    display: flex;
+    
+    background-color: white;
+    width: 1150px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+
+}
+
+.profile-avatar{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.profile-avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-card h2{
+    padding: 20px 20px;
+    font-size: 23px;
+    margin-bottom: -20px;
+}
+
+.profile-card h3{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 23px;
+
+}
+
+.total-report-card{
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 270px;
+    height: 130px;
+    text-align: center;
+}
+
+.lost-report-card{
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 270px;
+    height: 130px;
+    text-align: center;
+}
+
+.found-report-card{
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 270px;
+    height: 130px;
+    text-align: center;
+}
+
+.returned-report-card{
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 270px;
+    height: 130px;
+    text-align: center;
+}
+
+.total-report-card h1{
+    color: #2563eb;
+}
+
+.total-report-card h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lost-report-card h1{
+    color: #ef4444;
+}
+
+.lost-report-card h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.found-report-card h1{
+    color: #22c55e;
+}
+
+.found-report-card h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.returned-report-card h1{
+    color: #2563eb;
+}
+
+.returned-report-card h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.row-3{
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    width: 1150px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+
+.dell-laptop{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe1ea;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lenovo-laptop{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe1ea;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3-buttons button{
+    display: flex;
+   
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.row3-buttons:hover{
+    background-color: #2563eb;
+    color: white;
+}

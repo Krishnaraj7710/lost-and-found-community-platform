@@ -1,0 +1,33 @@
+.search-section{
+    display: flex;
+    padding: 20px 40px;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.search-container{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px 20px;
+    width: 60%;
+
+}
+
+.search-container input{
+    flex: 1;
+    height: 37px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+}
+
+.search-container select{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+}

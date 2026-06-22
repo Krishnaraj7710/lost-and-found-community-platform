@@ -1,0 +1,44 @@
+.nav-links{
+    display: flex;
+    gap: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links a{
+    color: #64748b;
+    text-decoration: none;
+}
+
+.nav-links button{
+
+ background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: inherit;
+  font-family: inherit;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.nav-links a:hover{
+    color: #2563eb;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+     
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-blue{
+    color:#2563eb;
+}

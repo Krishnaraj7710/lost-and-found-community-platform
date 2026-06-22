@@ -1,0 +1,35 @@
+.footer{
+    background-color: #111827;
+    color: white;
+    margin-top: 60px;
+    padding: 40px 0 20px;
+}
+
+.footer-content{
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-section h3,
+.footer-section h4{
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section li{
+    color: #d1d5db;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #374151;
+    color: #9ca3af;
+}
