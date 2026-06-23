@@ -12,6 +12,13 @@ function Register() {
 
     const handleRegister = () => {
 
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return;
+    }
+
   if(password !== confirmPassword){
     alert("Passwords do not match");
     return;
